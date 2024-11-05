@@ -33,6 +33,11 @@ main est le nom de la branche principale du dépôt dans laquelle on travaille.
 Après les parenthèses c'est le message du commit, en l'occurrence "ADD: README file.".
 
 ### Task 6
+Apres le checkout commit sur Initial commit, les fichiers et dossiers ont été réinitialisés
+à leur état de départ. 
+
+Apres le checkout sur le dernier commit, les fichiers ont retrouvé leur état final. c'est a dire qu'ils
+sont redevenus comme avant que l'on fasse le premier commit sur Initial commit.
 
 ## Gitgraph
 
