@@ -42,5 +42,29 @@ sont redevenus comme avant que l'on fasse le premier commit sur Initial commit.
 ## Gitgraph
 
 ### Task 7
+1) C'est le nom de la branche utilisée pour le développement en cours
+
+2) C'est le hash du commit, ce sont des identifiants unique pour chaque commit ce qui permet de 
+les différencier.
+
+3) C'est le message rentrer lors du commit 
+
+4) C'est l'auteur du commit, ce qui montre qui a commit les modifications.
+
+5) C'est la version du projet
+
+Points numérotés sont des commits, ce qui permet de visualiser l'historique des modifications.
+Commit 6 : Point de départ de la branche jaune (branche secondaire).
+Commit 7 : Un commit sur la branche jaune.
+Commit 8 : Commit de fusion entre la branche jaune et la branche principale (bleue).
+Commit 9 : Un commit sur la branche principale après la fusion.
+Commit 10 : Un autre commit sur la branche principale après le commit 9.
+
+La ligne bleu est la branche principale qui continue tout au long de l'image.
+
+La lign jaune est la branche secondaire qui est issue du commit 6.
+
+La ligne grise est un ligne de fusion qui rejoint les branches jaune et bleue au niveau du commit 8, 
+marquant le point où la branche jaune a été fusionnée dans la branche principale.
 
 ![Gitgraph](img/gitgraph.svg)
