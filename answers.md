@@ -53,18 +53,14 @@ les différencier.
 
 5) C'est la version du projet
 
-Points numérotés sont des commits, ce qui permet de visualiser l'historique des modifications.
-Commit 6 : Point de départ de la branche jaune (branche secondaire).
-Commit 7 : Un commit sur la branche jaune.
-Commit 8 : Commit de fusion entre la branche jaune et la branche principale (bleue).
-Commit 9 : Un commit sur la branche principale après la fusion.
-Commit 10 : Un autre commit sur la branche principale après le commit 9.
+6) C'est la branche develop qui a été fusionné avec la branche main 
 
-La ligne bleu est la branche principale qui continue tout au long de l'image.
+7) C'est la branche feature-auth qui a été fusionné avec develop
 
-La lign jaune est la branche secondaire qui est issue du commit 6.
+8) C'est la branche main
 
-La ligne grise est un ligne de fusion qui rejoint les branches jaune et bleue au niveau du commit 8, 
-marquant le point où la branche jaune a été fusionnée dans la branche principale.
+9)  Ces commit font parties de la branche develop ou main et représente l'historique des changements apportés 
+
+10) C'est le Initial commit du projet
 
 ![Gitgraph](img/gitgraph.svg)
